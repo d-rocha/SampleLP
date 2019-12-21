@@ -156,15 +156,32 @@
         <h3>Call us At <span>(309)692-3228</span> Or Enter Your Details Below</h3>
       </div>
       <div>
-        <form name='contact' action="" method="post" id="form" onsubmit="">
+        <form name='contact' action="" method="post" id="form" onsubmit="return formValidate(this)">
 
-          <input type="text" name="firstName" maxlength="10" placeholder="First Name *">
+          <input 
+            type="text" 
+            name="firstName" 
+            maxlength="10" 
+            placeholder="First Name *">
 
-          <input type="text" maxlength="10" name="lastName" placeholder="Last Name *">
+          <input 
+            type="text" 
+            maxlength="10" 
+            name="lastName" 
+            placeholder="Last Name *">
 
-          <input type="email" placeholder="Email *" name="email">
+          <input 
+            type="email" 
+            placeholder="Email *" 
+            name="email">
 
-          <input type="text" placeholder="Telephone *" name="telephone">
+          <input 
+            type="text" 
+            placeholder="Telephone *" 
+            name="telephone" 
+            id="telephone" 
+            data-js="telephone"
+            onblur="validatePhone(this)">
 
           <button type="submit">SUBMIT</button>
         </form>
@@ -173,7 +190,7 @@
   </section>
 
   <script src="https://kit.fontawesome.com/53018f2ac8.js" crossorigin="anonymous"></script>
-  <script src=""></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
