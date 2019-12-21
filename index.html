@@ -156,7 +156,11 @@
         <h3>Call us At <span>(309)692-3228</span> Or Enter Your Details Below</h3>
       </div>
       <div>
-        <form name='contact' action="" method="post" id="form" onsubmit="return formValidate(this)">
+        <form 
+          name='contact' 
+          method="POST" 
+          onsubmit="formValidate(this)" 
+          action="./php/field.php" >
 
           <input 
             type="text" 
@@ -178,10 +182,7 @@
           <input 
             type="text" 
             placeholder="Telephone *" 
-            name="telephone" 
-            id="telephone" 
-            data-js="telephone"
-            onblur="validatePhone(this)">
+            name="telephone"> 
 
           <button type="submit">SUBMIT</button>
         </form>
@@ -190,6 +191,7 @@
   </section>
 
   <script src="https://kit.fontawesome.com/53018f2ac8.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
   <script src="./js/index.js"></script>
 </body>
 
