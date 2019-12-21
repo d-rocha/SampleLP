@@ -1,0 +1,9 @@
+Não foram utilizados frameworks/libs em vista da simplicidade do desafio.
+
+Usei estrutura de diretórios e separei os arquivos, pois já é uma prática que adotei há algum tempo.
+
+Necessário ter o PHP instalado para testar esse projeto ou um ambiente integrado como XAMPP, MAMP ou LARAGON. Uma vez que a submissão do formulário vai para um arquivo .php, onde este captura(ou não, já que a validação é vazia conforme o enunciado) os dados enviados e são exibidos neste arquivo.
+
+Utilizado gulp para otimizar o .css e as imagens utilizadas no projeto.
+
+Desde já agradeço a oportunidade.

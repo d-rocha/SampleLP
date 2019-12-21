@@ -1,0 +1,17 @@
+{
+  "name": "SampleLP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/d-rocha/SampleLP.git",
+  "author": "d-rocha <dr.oliveira88@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-svgmin": "^2.2.0"
+  }
+}
